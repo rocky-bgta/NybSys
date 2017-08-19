@@ -9,10 +9,18 @@ import { AppComponent } from './app.component';
 //import { LayoutComponent, HeaderComponent } from './layout';
 //import { ContentComponent } from './layout/content/content.component';
 import {PageLayoutModule} from "./layout/page-layout.module";
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { PropertyBindingComponent } from './data-binding/property-binding.component';
+import { EventBindingComponent } from './data-binding/event-binding.component';
+import { TwoWayBindingComponent } from './data-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataBindingComponent,
+    PropertyBindingComponent,
+    EventBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
       BrowserModule,
